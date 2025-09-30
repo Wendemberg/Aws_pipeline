@@ -1,4 +1,4 @@
-Projeto: PREVISÃO DE CHUVAS EM  ÁREAS DE RISCO
+# Projeto: PREVISÃO DE CHUVAS EM  ÁREAS DE RISCO
 
 Este projeto foi desenvolvido na disciplina Engenharia de Dados em Nuvem, com o objetivo de construir uma solução de previsão de chuvas em áreas de risco, utilizando serviços on-demand da AWS.
 
@@ -8,7 +8,7 @@ Processamento em tempo real (streaming)
 
 Processamento em batch (em lotes)
 
-- PROCESSAMENTO EM TEMPO REAL (Streaming)
+## PROCESSAMENTO EM TEMPO REAL (Streaming)
 
 Ingestão de dados via AWS Lambda (Producer e Consumer).
 
@@ -18,7 +18,7 @@ Processamento contínuo e integração com CloudWatch para monitoramento e alert
 
 Geração de alertas críticos em tempo real via SNS (SMS e e-mail).
 
-- PROCESSAMENTO EM BATCH (Lotes)
+## PROCESSAMENTO EM BATCH (Lotes)
 
 Dados armazenados em S3 nas camadas raw (dados brutos) e gold (dados tratados).
 
@@ -30,19 +30,19 @@ Preparação de datasets históricos para análises preditivas.
 
 Integração com pipelines de machine learning para previsão de chuvas.
 
- SEGURANÇA E GOVERNANÇA
+## SEGURANÇA E GOVERNANÇA
 
 Implementação de boas práticas de IAM Roles para controle de acesso.
 
 Gestão de políticas de segurança e governança de dados em nuvem.
 
-- Monitoramento e Custos
+## Monitoramento e Custos
 
 Monitoramento e automação com CloudWatch.
 
 Experiência prática com custos on-demand e otimização de recursos.
 
-- PRINCIPAIS APRENDIZADOS
+## PRINCIPAIS APRENDIZADOS
 
 Construção de pipelines escaláveis em nuvem.
 
@@ -54,7 +54,7 @@ Monitoramento e otimização de custos.
 
 Entrega de alertas críticos em tempo real.
 
-- IMPACTO E PRÓXIMOS PASSOS
+## IMPACTO E PRÓXIMOS PASSOS
 
 Este projeto reforça a importância da engenharia de dados em nuvem para áreas como logística, agricultura e defesa civil, ao permitir análises históricas (batch) e reativas (streaming).
 
